@@ -1,0 +1,16 @@
+{
+  "name": "chainlist-extrarpcs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "module": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "post:fix": "node scripts/fixModule.js",
+    "post:syncExtra": "node scripts/syncExtra.js",
+    "postinstall": "yarn post:fix && yarn post:syncExtra"
+  },
+  "devDependencies": {
+    "chainlist": "github:DefiLlama/chainlist"
+  }
+}
