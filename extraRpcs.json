@@ -1851,12 +1851,7 @@
         "trackingDetails": "We do not collect request data or request origin. We only temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days and we do not store any user information for longer periods of time. https://blockpi.io/privacy-policy"
       },
       {
-        "url": "https://oasys-mainnet.rpc.grove.city/v1/167fa7a3",
-        "tracking": "none",
-        "trackingDetails": "What We Do Not Collect: User's IP address, request origin, request data. https://www.blog.pokt.network/rpc-logging-practices/"
-      },
-      {
-        "url": "https://oasys-mainnet-archival.rpc.grove.city/v1/167fa7a3",
+        "url": "https://oasys.rpc.grove.city/v1/167fa7a3",
         "tracking": "none",
         "trackingDetails": "What We Do Not Collect: User's IP address, request origin, request data. https://www.blog.pokt.network/rpc-logging-practices/"
       },
