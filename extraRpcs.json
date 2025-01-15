@@ -3716,6 +3716,15 @@
       "wss://rpc-quicknode.morphl2.io"
     ]
   },
+  "3030": {
+    "rpcs": [
+      {
+        "url": "https://datahub-asia01.bchscan.io/",
+        "tracking": "none",
+        "trackingDetails": "We do not collect, use, or share any personal data of BC Hyper Chain Blockchain RPC endpoint users. Specifically: We do not collect IP addresses, operating systems, or browser types.No device information, including application IDs, is collected. This commitment ensures that users' information remains private and secure when interacting with our RPC endpoint.For more visit https://versatizecoin.com/rpc_privacy.html"
+      }
+    ]
+  },
   "3501": {
     "rpcs": [
       "https://rpc.jfinchain.com",
