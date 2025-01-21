@@ -4781,6 +4781,11 @@
         "url": "https://0g-json-rpc-public.originstake.com",
         "tracking": "none",
         "trackingDetails": "At OriginStake, your privacy is our top priority. Our RPC services strictly handle on-chain information and never collect or store personal data such as IP addresses, wallet details, location, or any other identifying information. We do not track or log user interactions beyond what’s required for on-chain transactions. Any data temporarily collected is solely for maintaining service functionality, such as load balancing or DDoS protection, and is automatically deleted after 7 days. For more details: https://originstake.com/privacy"
+      },
+      {
+        "url": "https://og-testnet-evm.itrocket.net",
+        "tracking": "none",
+        "trackingDetails": "We do not track, store or process any personal data. You can check our privacy policy here: https://itrocket.net/privacy-policy/"
       }
     ]
   },
@@ -5079,6 +5084,11 @@
   "42069": {
     "rpcs": [
       "rpcWorking:false"
+    ]
+  },
+  "42070": {
+    "rpcs": [
+      "https://rpc-testnet-base.worldmobile.net"
     ]
   },
   "42161": {
