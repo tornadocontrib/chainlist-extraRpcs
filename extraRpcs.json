@@ -5640,7 +5640,17 @@
       "https://rpc-gel.inkonchain.com",
       "https://rpc-qnd.inkonchain.com",
       "wss://rpc-gel.inkonchain.com",
-      "wss://rpc-qnd.inkonchain.com"
+      "wss://rpc-qnd.inkonchain.com",
+      {
+        "url": "https://ink.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://ink.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
     ]
   },
   "59140": {
@@ -6647,7 +6657,17 @@
   "763373": {
     "rpcs": [
       "https://rpc-gel-sepolia.inkonchain.com",
-      "wss://ws-gel-sepolia.inkonchain.com"
+      "wss://ws-gel-sepolia.inkonchain.com",
+      {
+        "url": "https://ink-sepolia.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://ink-sepolia.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
     ]
   },
   "827431": {
