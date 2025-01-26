@@ -4163,6 +4163,11 @@
       "https://brockrpc.io"
     ]
   },
+  "7181": {
+    "rpcs": [
+      "https://rpc-sepolia.uxlinkone.com/"
+    ]
+  },
   "7341": {
     "rpcs": [
       "https://rpc.shyft.network/"
@@ -6884,6 +6889,11 @@
         "url": "https://node.histori.xyz/optimism-sepolia/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://optimism-sepolia.api.onfinality.io/public",
+        "tracking": "limited",
+        "trackingDetails": "For the sole purpose of providing our service, we temporarily record IP addresses and origins to check against free limits, provide load balancing, prevent DOS attacks, and to determine where best to locate our nodes. We do not, and will never, correlate or link specific wallet addresses or transactions made over our infrastructure to the IP address or origin making the RPC request. After processing IP addresses, we discard the IP address value within 24 hours. Read more here: https://blog.onfinality.io/how-does-onfinality-deal-with-personal-information/"
       }
     ]
   },
