@@ -4579,6 +4579,20 @@
       "https://eu.mainnet.xixoio.com"
     ]
   },
+  "10143": {
+    "rpcs": [
+      {
+        "url": "https://monad-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://monad-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
+    ]
+  },
   "10200": {
     "rpcs": [
       "https://rpc.chiadochain.net",
