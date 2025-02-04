@@ -282,7 +282,8 @@
         "url": "https://eth1.lava.build",
         "tracking": "yes",
         "trackingDetails": "We, our service providers, and our business partners may automatically log information about you, your computer or mobile device, and your interaction over time with the Service..., such as: Device data, ...your computer or mobile device's operating system type and version, manufacturer and model, browser type, screen resolution, RAM and disk size, CPU usage, device type (e.g., phone, tablet), IP address, unique identifiers (including identifiers used for advertising purposes), language settings, mobile device carrier, radio/network information (e.g., Wi-Fi, LTE, 3G), and general location information such as city, state or geographic area. https://www.lavanet.xyz/privacy-policy"
-      }
+      },
+      "https://0xrpc.io/eth"
     ]
   },
   "2": {
@@ -522,7 +523,8 @@
         "url": "https://node.histori.xyz/optimism-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
-      }
+      },
+      "https://0xrpc.io/op"
     ]
   },
   "11": {
@@ -980,7 +982,8 @@
         "url": "https://node.histori.xyz/bsc-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
-      }
+      },
+      "https://0xrpc.io/bnb"
     ]
   },
   "57": {
@@ -1355,7 +1358,8 @@
         "url": "https://node.histori.xyz/gnosis-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
-      }
+      },
+      "https://0xrpc.io/gno"
     ]
   },
   "101": {
@@ -1608,7 +1612,8 @@
         "url": "https://node.histori.xyz/matic-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
-      }
+      },
+      "https://0xrpc.io/pol"
     ]
   },
   "142": {
@@ -3264,7 +3269,9 @@
       "https://mainnet.storyrpc.io",
       "https://story-evm-rpc.spidernode.net",
       "https://evm-rpc.story.mainnet.dteam.tech",
-      "https://evm-rpc-story.j-node.net"
+      "https://evm-rpc-story.j-node.net",
+      "https://lightnode-json-rpc-mainnet-story.grandvalleys.com",
+      "https://story-evm-rpc.krews.xyz"
     ]
   },
   "1515": {
@@ -3366,6 +3373,21 @@
       "rpcWorking:false"
     ],
     "rpcWorking": false
+  },
+  "1868": {
+    "rpcs": [
+      "https://rpc.soneium.org",
+      {
+        "url": "https://soneium.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://soneium.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
+    ]
   },
   "1881": {
     "rpcs": [
@@ -3708,6 +3730,21 @@
       "https://api.ezchain.com/ext/bc/C/rpc"
     ]
   },
+  "2741": {
+    "rpcs": [
+      "https://api.mainnet.abs.xyz",
+      {
+        "url": "https://abstract.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://abstract.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
+    ]
+  },
   "2818": {
     "rpcs": [
       "https://rpc.morphl2.io",
@@ -3828,6 +3865,21 @@
         "url": "https://endpoints.omniatech.io/v1/merlin/mainnet/public",
         "tracking": "none",
         "trackingDetails": "All the data and metadata remain private to the users. No third party is able to access, analyze or track it. OMNIA leverages different technologies and approaches to guarantee the privacy of their users, from front-running protection and private mempools, to obfuscation and random dispatching. https://blog.omniatech.io/how-omnia-handles-your-personal-data"
+      },
+      {
+        "url": "https://endpoints.omniatech.io/v1/merlin/mainnet/public",
+        "tracking": "none",
+        "trackingDetails": "All the data and metadata remain private to the users. No third party is able to access, analyze or track it. OMNIA leverages different technologies and approaches to guarantee the privacy of their users, from front-running protection and private mempools, to obfuscation and random dispatching. https://blog.omniatech.io/how-omnia-handles-your-personal-data"
+      },
+      {
+        "url": "https://merlin.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://merlin.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       }
     ]
   },
@@ -4424,7 +4476,8 @@
         "url": "https://node.histori.xyz/base-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
-      }
+      },
+      "https://0xrpc.io/base"
     ]
   },
   "8668": {
@@ -4793,7 +4846,7 @@
   },
   "16600": {
     "rpcs": [
-      "https://rpc-testnet.0g.ai",
+      "https://evmrpc-testnet.0g.ai",
       "https://lightnode-json-rpc-0g.grandvalleys.com",
       "https://0g-json-rpc-public.originstake.com",
       {
@@ -5493,7 +5546,8 @@
         "url": "https://node.histori.xyz/avalanche-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
-      }
+      },
+      "https://0xrpc.io/avax"
     ]
   },
   "43521": {
@@ -5998,11 +6052,6 @@
         "url": "wss://blast.gasswap.org",
         "tracking": "none",
         "trackingDetails": "GasSwap nodes are provided as a public good and we never store any identifiable information for users. See https://docs.gasswap.org/gasswap/public-node"
-      },
-      {
-        "url": "https://rpc.envelop.is/blast",
-        "tracking": "none",
-        "trackingDetails": "We, Envelop, do not collect and/or process any personal data other than publicly available data.  Check out our privacy statement here: https://docs.envelop.is/legal/privacy-policy"
       },
       {
         "url": "https://blast-rpc.publicnode.com",
@@ -6868,7 +6917,8 @@
         "url": "https://endpoints.omniatech.io/v1/eth/sepolia/public",
         "tracking": "none",
         "trackingDetails": "All the data and metadata remain private to the users. No third party is able to access, analyze or track it. OMNIA leverages different technologies and approaches to guarantee the privacy of their users, from front-running protection and private mempools, to obfuscation and random dispatching. https://blog.omniatech.io/how-omnia-handles-your-personal-data"
-      }
+      },
+      "https://0xrpc.io/sep"
     ]
   },
   "11155420": {
