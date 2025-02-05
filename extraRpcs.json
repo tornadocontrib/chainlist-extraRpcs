@@ -2500,7 +2500,8 @@
   },
   "698": {
     "rpcs": [
-      "https://rpc.matchain.io"
+      "https://rpc.matchain.io",
+      "https://rpc.ankr.com/matchain_mainnet"
     ]
   },
   "707": {
