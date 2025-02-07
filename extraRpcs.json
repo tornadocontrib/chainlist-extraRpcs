@@ -283,7 +283,12 @@
         "tracking": "yes",
         "trackingDetails": "We, our service providers, and our business partners may automatically log information about you, your computer or mobile device, and your interaction over time with the Service..., such as: Device data, ...your computer or mobile device's operating system type and version, manufacturer and model, browser type, screen resolution, RAM and disk size, CPU usage, device type (e.g., phone, tablet), IP address, unique identifiers (including identifiers used for advertising purposes), language settings, mobile device carrier, radio/network information (e.g., Wi-Fi, LTE, 3G), and general location information such as city, state or geographic area. https://www.lavanet.xyz/privacy-policy"
       },
-      "https://0xrpc.io/eth"
+      "https://0xrpc.io/eth",
+      {
+        "url": "https://rpc.owlracle.info/eth/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
+      }
     ]
   },
   "2": {
@@ -524,7 +529,12 @@
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
       },
-      "https://0xrpc.io/op"
+      "https://0xrpc.io/op",
+      {
+        "url": "https://rpc.owlracle.info/opt/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
+      }
     ]
   },
   "11": {
@@ -616,6 +626,11 @@
         "url": "https://endpoints.omniatech.io/v1/cronos/mainnet/public",
         "tracking": "none",
         "trackingDetails": "All the data and metadata remain private to the users. No third party is able to access, analyze or track it. OMNIA leverages different technologies and approaches to guarantee the privacy of their users, from front-running protection and private mempools, to obfuscation and random dispatching. https://blog.omniatech.io/how-omnia-handles-your-personal-data"
+      },
+      {
+        "url": "https://rpc.owlracle.info/cro/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
       }
     ]
   },
@@ -983,7 +998,12 @@
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
       },
-      "https://0xrpc.io/bnb"
+      "https://0xrpc.io/bnb",
+      {
+        "url": "https://rpc.owlracle.info/bsc/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
+      }
     ]
   },
   "57": {
@@ -1431,6 +1451,11 @@
         "url": "wss://fuse.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "https://rpc.owlracle.info/fuse/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
       }
     ]
   },
@@ -1613,7 +1638,12 @@
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
       },
-      "https://0xrpc.io/pol"
+      "https://0xrpc.io/pol",
+      {
+        "url": "https://rpc.owlracle.info/poly/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
+      }
     ]
   },
   "142": {
@@ -1950,6 +1980,11 @@
         "url": "https://node.histori.xyz/fantom-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://rpc.owlracle.info/ftm/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
       }
     ]
   },
@@ -2280,7 +2315,12 @@
       },
       "https://rpc-pulsechain.g4mm4.io",
       "https://evex.cloud/pulserpc",
-      "wss://evex.cloud/pulsews"
+      "wss://evex.cloud/pulsews",
+      {
+        "url": "https://rpc.owlracle.info/pulse/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
+      }
     ]
   },
   "385": {
@@ -3086,6 +3126,11 @@
         "url": "https://node.histori.xyz/moonriver-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://rpc.owlracle.info/movr/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
       }
     ]
   },
@@ -3993,6 +4038,11 @@
         "url": "https://node.histori.xyz/mantle-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://rpc.owlracle.info/mantle/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
       }
     ]
   },
@@ -4478,7 +4528,12 @@
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
       },
-      "https://0xrpc.io/base"
+      "https://0xrpc.io/base",
+      {
+        "url": "https://rpc.owlracle.info/base/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
+      }
     ]
   },
   "8668": {
@@ -5274,6 +5329,11 @@
         "url": "https://node.histori.xyz/arbitrum-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://rpc.owlracle.info/arb/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
       }
     ]
   },
@@ -5374,6 +5434,11 @@
         "url": "https://node.histori.xyz/celo-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://rpc.owlracle.info/celo/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
       }
     ]
   },
@@ -5548,7 +5613,12 @@
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
       },
-      "https://0xrpc.io/avax"
+      "https://0xrpc.io/avax",
+      {
+        "url": "https://rpc.owlracle.info/avax/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
+      }
     ]
   },
   "43521": {
@@ -5779,6 +5849,11 @@
         "url": "https://node.histori.xyz/linea-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://rpc.owlracle.info/linea/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
       }
     ]
   },
@@ -6093,6 +6168,11 @@
         "url": "https://node.histori.xyz/blast-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://rpc.owlracle.info/blast/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
       }
     ]
   },
@@ -6919,7 +6999,12 @@
         "tracking": "none",
         "trackingDetails": "All the data and metadata remain private to the users. No third party is able to access, analyze or track it. OMNIA leverages different technologies and approaches to guarantee the privacy of their users, from front-running protection and private mempools, to obfuscation and random dispatching. https://blog.omniatech.io/how-omnia-handles-your-personal-data"
       },
-      "https://0xrpc.io/sep"
+      "https://0xrpc.io/sep",
+      {
+        "url": "https://rpc.owlracle.info/sepolia/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
+      }
     ]
   },
   "11155420": {
@@ -7190,6 +7275,11 @@
         "url": "https://node.histori.xyz/aurora-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://rpc.owlracle.info/aurora/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
       }
     ]
   },
@@ -7254,6 +7344,11 @@
         "url": "https://node.histori.xyz/harmony-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://rpc.owlracle.info/one/70d38ce1826c4a60bb2a8e05a6c8b20f",
+        "tracking": "limited",
+        "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
       }
     ]
   },
