@@ -5720,6 +5720,13 @@
       "https://rpc.sophon.xyz"
     ]
   },
+  "53456": {
+    "rpcs": [
+      "https://rpc.birdlayer.xyz",
+      "https://rpc1.birdlayer.xyz",
+      "wss://rpc.birdlayer.xyz/ws"
+    ]
+  },
   "53935": {
     "rpcs": [
       "https://subnets.avax.network/defi-kingdoms/dfk-chain/rpc"
