@@ -943,7 +943,7 @@
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       },
       {
-        "url": "https://services.tokenview.io/vipapi/nodeservice/bsc?apikey=qVHq2o6jpaakcw3lRstl",
+        "url": "https://services.tokenview.io/vipapi/nodeservice/bsc?apikey=gVFJX5OyPdc2kHH7youg",
         "tracking": "yes",
         "trackingDetails": "Information about your computer hardware and software may be automatically collected by Tokenview. This information can include such details as your IP address, browser type, domain names, access times, etc.https://services.tokenview.io/en/protocol"
       },
@@ -3314,10 +3314,15 @@
     "rpcs": [
       "https://mainnet.storyrpc.io",
       "https://story-evm-rpc.spidernode.net",
-      "https://evm-rpc.story.mainnet.dteam.tech",
+      {
+        "url": "https://evm-rpc.story.mainnet.dteam.tech",
+        "tracking": "none",
+        "trackingDetails": "We do not log, store, or track your IP, location, or personal data during RPC requests. https://dteam.tech/privacy-policy"
+      },
       "https://evm-rpc-story.j-node.net",
       "https://lightnode-json-rpc-mainnet-story.grandvalleys.com",
-      "https://story-evm-rpc.krews.xyz"
+      "https://story-evm-rpc.krews.xyz",
+      "https://story-mainnet-jsonrpc.blockhub.id"
     ]
   },
   "1515": {
@@ -3349,9 +3354,21 @@
         "trackingDetails": "We do not collect request data or request origin. We only temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days and we do not store any user information for longer periods of time. https://blockpi.io/privacy-policy"
       },
       "https://story-odyssey-rpc.auranode.xyz",
-      "https://evm-rpc.story.testnet.dteam.tech",
-      "https://evm-rpc-2.story.testnet.dteam.tech",
-      "https://evm-rpc-3.story.testnet.dteam.tech"
+      {
+        "url": "https://evm-rpc.story.testnet.dteam.tech",
+        "tracking": "none",
+        "trackingDetails": "We do not log, store, or track your IP, location, or personal data during RPC requests. https://dteam.tech/privacy-policy"
+      },
+      {
+        "url": "https://evm-rpc-2.story.testnet.dteam.tech",
+        "tracking": "none",
+        "trackingDetails": "We do not log, store, or track your IP, location, or personal data during RPC requests. https://dteam.tech/privacy-policy"
+      },
+      {
+        "url": "https://evm-rpc-3.story.testnet.dteam.tech",
+        "tracking": "none",
+        "trackingDetails": "We do not log, store, or track your IP, location, or personal data during RPC requests. https://dteam.tech/privacy-policy"
+      }
     ]
   },
   "1618": {
@@ -6107,6 +6124,16 @@
         "url": "https://node.histori.xyz/berachain-testnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      }
+    ]
+  },
+  "80094": {
+    "rpcs": [
+      "https://rpc.berachain.com",
+      {
+        "url": "https://berachain.blockpi.network/v1/rpc/public",
+        "tracking": "limited",
+        "trackingDetails": "We do not collect request data or request origin. We only temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days and we do not store any user information for longer periods of time. https://blockpi.io/privacy-policy"
       }
     ]
   },
