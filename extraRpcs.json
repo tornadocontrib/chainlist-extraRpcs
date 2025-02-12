@@ -1495,6 +1495,11 @@
       }
     ]
   },
+  "130": {
+    "rpcs": [
+      "https://mainnet.unichain.org/"
+    ]
+  },
   "131": {
     "rpcs": [
       "https://tokioswift.engram.tech",
