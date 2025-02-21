@@ -2702,9 +2702,9 @@
     ]
   },
   "998": {
-    "rpcs": [],
-    "websiteDead": true,
-    "rpcWorking": false
+    "rpcs": [
+      "https://rpc.hyperliquid-testnet.xyz/evm"
+    ]
   },
   "1001": {
     "rpcs": [
@@ -4094,6 +4094,20 @@
         "url": "https://node.histori.xyz/lisk-sepolia/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      }
+    ]
+  },
+  "4352": {
+    "rpcs": [
+      {
+        "url": "https://rpc.memecore.net",
+        "tracking": "none",
+        "trackingDetails": "We do not log, store, or track any user data without consent with exception of data publicly available on chain."
+      },
+      {
+        "url": "wss://ws.memecore.net",
+        "tracking": "none",
+        "trackingDetails": "We do not log, store, or track any user data without consent with exception of data publicly available on chain."
       }
     ]
   },
