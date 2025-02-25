@@ -283,8 +283,16 @@
         "tracking": "yes",
         "trackingDetails": "We, our service providers, and our business partners may automatically log information about you, your computer or mobile device, and your interaction over time with the Service..., such as: Device data, ...your computer or mobile device's operating system type and version, manufacturer and model, browser type, screen resolution, RAM and disk size, CPU usage, device type (e.g., phone, tablet), IP address, unique identifiers (including identifiers used for advertising purposes), language settings, mobile device carrier, radio/network information (e.g., Wi-Fi, LTE, 3G), and general location information such as city, state or geographic area. https://www.lavanet.xyz/privacy-policy"
       },
-      "https://0xrpc.io/eth",
-      "wss://0xrpc.io/eth",
+      {
+        "url": "https://0xrpc.io/eth",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
+      {
+        "url": "wss://0xrpc.io/eth",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
       {
         "url": "https://rpc.owlracle.info/eth/70d38ce1826c4a60bb2a8e05a6c8b20f",
         "tracking": "limited",
@@ -530,8 +538,16 @@
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
       },
-      "https://0xrpc.io/op",
-      "wss://0xrpc.io/op",
+      {
+        "url": "https://0xrpc.io/op",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
+      {
+        "url": "wss://0xrpc.io/op",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
       {
         "url": "https://rpc.owlracle.info/opt/70d38ce1826c4a60bb2a8e05a6c8b20f",
         "tracking": "limited",
@@ -1000,8 +1016,6 @@
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
       },
-      "https://0xrpc.io/bnb",
-      "wss://0xrpc.io/bnb",
       {
         "url": "https://rpc.owlracle.info/bsc/70d38ce1826c4a60bb2a8e05a6c8b20f",
         "tracking": "limited",
@@ -1072,6 +1086,16 @@
         "url": "https://etc.rivet.link",
         "tracking": "none",
         "trackingDetails": "We collect End Users’ information when they use our Customers’ web3-enabled websites, web applications, and APIs. This information may include but is not limited to IP addresses, system configuration information, and other information about traffic to and from Customers’ websites (collectively, 'Log Data'). We collect and use Log Data to operate, maintain, and improve our Services in performance of our obligations under our Customer agreements.https://rivet.cloud/privacy-policy"
+      },
+      {
+        "url": "https://0xrpc.io/etc",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
+      {
+        "url": "wss://0xrpc.io/etc",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
       }
     ]
   },
@@ -1407,8 +1431,16 @@
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
       },
-      "https://0xrpc.io/gno",
-      "wss://0xrpc.io/gno"
+      {
+        "url": "https://0xrpc.io/gno",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
+      {
+        "url": "wss://0xrpc.io/gno",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      }
     ]
   },
   "101": {
@@ -1547,8 +1579,16 @@
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       },
-      "https://0xrpc.io/uni",
-      "wss://0xrpc.io/uni"
+      {
+        "url": "https://0xrpc.io/uni",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
+      {
+        "url": "wss://0xrpc.io/uni",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      }
     ]
   },
   "131": {
@@ -4715,8 +4755,16 @@
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
       },
-      "https://0xrpc.io/base",
-      "wss://0xrpc.io/base",
+      {
+        "url": "https://0xrpc.io/base",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
+      {
+        "url": "wss://0xrpc.io/base",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
       {
         "url": "https://rpc.owlracle.info/base/70d38ce1826c4a60bb2a8e05a6c8b20f",
         "tracking": "limited",
@@ -5860,8 +5908,16 @@
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
       },
-      "https://0xrpc.io/avax",
-      "wss://0xrpc.io/avax",
+      {
+        "url": "https://0xrpc.io/avax",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
+      {
+        "url": "wss://0xrpc.io/avax",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
       {
         "url": "https://rpc.owlracle.info/avax/70d38ce1826c4a60bb2a8e05a6c8b20f",
         "tracking": "limited",
@@ -6415,6 +6471,16 @@
         "url": "wss://berachain.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "https://0xrpc.io/bera",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
+      {
+        "url": "wss://0xrpc.io/bera",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
       }
     ]
   },
@@ -7371,8 +7437,16 @@
         "tracking": "none",
         "trackingDetails": "All the data and metadata remain private to the users. No third party is able to access, analyze or track it. OMNIA leverages different technologies and approaches to guarantee the privacy of their users, from front-running protection and private mempools, to obfuscation and random dispatching. https://blog.omniatech.io/how-omnia-handles-your-personal-data"
       },
-      "https://0xrpc.io/sep",
-      "wss://0xrpc.io/sep",
+      {
+        "url": "https://0xrpc.io/sep",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
+      {
+        "url": "wss://0xrpc.io/sep",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
       {
         "url": "https://rpc.owlracle.info/sepolia/70d38ce1826c4a60bb2a8e05a6c8b20f",
         "tracking": "limited",
