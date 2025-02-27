@@ -3470,8 +3470,12 @@
         "tracking": "none",
         "trackingDetails": "We do not log, store, or track your IP, location, or personal data during RPC requests. https://dteam.tech/privacy-policy"
       },
+      {
+        "url": "https://lightnode-json-rpc-mainnet-story.grandvalleys.com",
+        "tracking": "none",
+        "trackingDetails": "We do not collect, store, process, or log any data from users of our Services. This includes, but is not limited to: IP addresses (we explicitly disable IP logging at both software and infrastructure levels), Device/browser identifiers (e.g., user-agent headers, screen resolution), Network metadata (requests, responses, timestamps), Wallet addresses, private keys, or transaction data, Geolocation or demographic information. https://github.com/hubofvalley/Testnet-Guides/blob/main/PRIVACY_POLICY.md"
+      },
       "https://evm-rpc-story.j-node.net",
-      "https://lightnode-json-rpc-mainnet-story.grandvalleys.com",
       "https://story-evm-rpc.krews.xyz",
       "https://story-mainnet-jsonrpc.blockhub.id",
       "https://evmrpc.story.nodestake.org",
@@ -5443,6 +5447,11 @@
         {
           "url": "https://evm-aeneid-story.j-node.net",
           "tracking": "none"
+        },
+        {
+          "url": "https://lightnode-json-rpc-story.grandvalleys.com",
+          "tracking": "none",
+          "trackingDetails": "privacyStatement.GrandValley"
         }
       ]
     },
@@ -6481,6 +6490,16 @@
         "url": "wss://0xrpc.io/bera",
         "tracking": "limited",
         "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
+      {
+        "url": "https://rpc.berachain-apis.com",
+        "tracking": "none",
+        "trackingDetails": "We never collect, store, or track any identifying information. Data points like request volumes and success rates are only aggregated to monitor API performance. For more details, please visit https://rhinostake.com/resources/rhino-apis-terms-conditions"
+      },
+      {
+        "url": "wss://rpc.berachain-apis.com",
+        "tracking": "none",
+        "trackingDetails": "We never collect, store, or track any identifying information. Data points like request volumes and success rates are only aggregated to monitor API performance. For more details, please visit https://rhinostake.com/resources/rhino-apis-terms-conditions"
       }
     ]
   },
