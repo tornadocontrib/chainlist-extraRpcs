@@ -5143,7 +5143,6 @@
   "16600": {
     "rpcs": [
       "https://evmrpc-testnet.0g.ai",
-      "https://lightnode-json-rpc-0g.grandvalleys.com",
       "https://0g-json-rpc-public.originstake.com",
       {
         "url": "https://0g-json-rpc-public.originstake.com",
@@ -5154,6 +5153,11 @@
         "url": "https://og-testnet-evm.itrocket.net",
         "tracking": "none",
         "trackingDetails": "We do not track, store or process any personal data. You can check our privacy policy here: https://itrocket.net/privacy-policy/"
+      },
+      {
+        "url": "https://lightnode-json-rpc-0g.grandvalleys.com",
+        "tracking": "none",
+        "trackingDetails": "We do not collect, store, process, or log any data from users of our Services. This includes, but is not limited to: IP addresses (we explicitly disable IP logging at both software and infrastructure levels), Device/browser identifiers (e.g., user-agent headers, screen resolution), Network metadata (requests, responses, timestamps), Wallet addresses, private keys, or transaction data, Geolocation or demographic information. https://github.com/hubofvalley/Testnet-Guides/blob/main/PRIVACY_POLICY.md"
       }
     ]
   },
@@ -5278,7 +5282,17 @@
   "24734": {
     "rpcs": [
       "https://node1.mintme.com",
-      "https://node.1000x.ch"
+      "https://node.1000x.ch",
+      {
+        "url": "https://0xrpc.io/mint",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
+      {
+        "url": "wss://0xrpc.io/mint",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      }
     ]
   },
   "25327": {
