@@ -3508,11 +3508,6 @@
       "https://story-rpc-evm.validatorvn.com",
       "https://rpc-storyevm-testnet.aldebaranode.xyz",
       "https://rpc-evm-story.rawaki.xyz",
-      {
-        "url": "https://story-odyssey-evm.blockpi.network/v1/rpc/public",
-        "tracking": "limited",
-        "trackingDetails": "We do not collect request data or request origin. We only temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days and we do not store any user information for longer periods of time. https://blockpi.io/privacy-policy"
-      },
       "https://story-odyssey-rpc.auranode.xyz",
       {
         "url": "https://evm-rpc.story.testnet.dteam.tech",
@@ -4341,6 +4336,11 @@
   "5439": {
     "rpcs": [
       "https://mainnet.egochain.org"
+    ]
+  },
+  "5464": {
+    "rpcs": [
+      "https://sagaevm.jsonrpc.sagarpc.io"
     ]
   },
   "5551": {
