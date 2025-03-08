@@ -3481,7 +3481,7 @@
       "https://evmrpc.story.nodestake.org",
       "https://story-mainnet.zenithnode.xyz",
       "https://evm-rpc.story.silentvalidator.com",
-      "https://story-rpc-evm.mandragora.io",
+      "https://story-evm-rpc.mandragora.io",
       "https://rpc-storyevm.aldebaranode.xyz"
     ]
   },
@@ -6015,6 +6015,12 @@
   },
   "48900": {
     "rpcs": [
+      "https://mainnet.zircuit.com",
+      {
+        "url": "https://mainnet.zircuit.com",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
       {
         "url": "https://zircuit1-mainnet.p2pify.com",
         "tracking": "yes",
