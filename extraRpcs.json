@@ -7312,6 +7312,15 @@
       "https://api.s0.posichain.org"
     ]
   },
+  "911867": {
+    "rpcs": [
+      {
+        "url": "https://odyssey.ithaca.xyz",
+        "tracking": "yes",
+        "trackingDetails": "We retain Personal Data about you for as long as necessary to provide you with our services. In some cases we retain Personal Data for longer, if doing so is necessary to comply with our legal obligations, resolve disputes or collect fees owed, or is otherwise permitted or required by applicable law, rule or regulation.https://www.conduit.xyz/privacy-policy"
+      }
+    ]
+  },
   "955305": {
     "rpcs": [
       "https://host-76-74-28-226.contentfabric.io/eth/"
