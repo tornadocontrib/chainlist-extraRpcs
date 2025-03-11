@@ -4005,6 +4005,11 @@
       }
     ]
   },
+  "3073": {
+    "rpcs": [
+      "https://mainnet.movementnetwork.xyz"
+    ]
+  },
   "3501": {
     "rpcs": [
       "https://rpc.jfinchain.com",
