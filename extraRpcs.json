@@ -4007,7 +4007,12 @@
   },
   "3073": {
     "rpcs": [
-      "https://mainnet.movementnetwork.xyz"
+      "https://mainnet.movementnetwork.xyz/v1",
+      {
+        "url": "https://movement.lava.build",
+        "tracking": "yes",
+        "trackingDetails": "We, our service providers, and our business partners may automatically log information about you, your computer or mobile device, and your interaction over time with the Service..., such as: Device data, ...your computer or mobile device's operating system type and version, manufacturer and model, browser type, screen resolution, RAM and disk size, CPU usage, device type (e.g., phone, tablet), IP address, unique identifiers (including identifiers used for advertising purposes), language settings, mobile device carrier, radio/network information (e.g., Wi-Fi, LTE, 3G), and general location information such as city, state or geographic area. https://www.lavanet.xyz/privacy-policy"
+      }
     ]
   },
   "3501": {
