@@ -9,11 +9,6 @@
         "isOpenSource": true
       },
       {
-        "url": "https://rpc.ankr.com/eth",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
         "url": "https://go.getblock.io/aefd01aa907c4805ba3c00a9e5b48c6b",
         "tracking": "none",
         "trackingDetails": "We automatically collect certain information through cookies and similar technologies when you visit, use or navigate Website. This information does not reveal your specific identity (like your name or contact information) and does not allow to identify you. However, it may include device and usage information, such as your IP address, browser and device characteristics, its type and version, operating system, language preferences, referring URLs, device name, country, location, information about how and when you use our Website, information about your interaction in our emails, and other technical and statistical information. This information is primarily needed to maintain the security and operation of our Website, and for our internal analytics and reporting purposes.Specifically, as the RPC provider, we do not log and store your IP address, country, location and similar data. https://getblock.io/privacy-policy/"
@@ -308,23 +303,16 @@
   },
   "3": {
     "rpcs": [
-      "https://rpc.ankr.com/eth_ropsten",
       "https://ropsten.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
     ]
   },
   "4": {
     "rpcs": [
-      "https://rpc.ankr.com/eth_rinkeby",
       "https://rinkeby.infura.io/3/9aa3d95b3bc440fa88ea12eaa4456161"
     ]
   },
   "5": {
     "rpcs": [
-      {
-        "url": "https://rpc.ankr.com/eth_goerli",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       {
         "url": "https://endpoints.omniatech.io/v1/eth/goerli/public",
         "tracking": "none",
@@ -412,11 +400,6 @@
         "isOpenSource": true
       },
       "https://mainnet.optimism.io/",
-      {
-        "url": "https://rpc.ankr.com/optimism",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       {
         "url": "https://optimism-mainnet.public.blastapi.io",
         "tracking": "limited",
@@ -740,16 +723,6 @@
         "url": "https://node.histori.xyz/telos-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
-      },
-      {
-        "url": "https://rpc.ankr.com/telos",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
-        "url": "wss://rpc.ankr.com/telos/ws/",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       }
     ]
   },
@@ -805,11 +778,6 @@
       "https://erpc.xinfin.network/",
       "wss://ews.xinfin.network/ws",
       {
-        "url": "https://rpc.ankr.com/xdc",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
         "url": "https://xdc-mainnet.gateway.tatum.io",
         "tracking": "yes",
         "trackingDetails": "Tatum Technology s.r.o.'s policy respects your privacy regarding any information we may collect from you across our website, https://tatum.io, and other sites we own and operate. For more info, check https://tatum.io/privacy-policy ."
@@ -820,7 +788,6 @@
     "rpcs": [
       "https://erpc.apothem.network",
       "https://apothem.xdcrpc.com",
-      "https://rpc.ankr.com/xdc_testnet",
       "https://earpc.apothem.network/",
       "https://erpc.apothem.network/",
       "wss://eaws.apothem.network/"
@@ -851,11 +818,6 @@
         "tracking": "none",
         "trackingDetails": "LlamaNodes is open-source and does not track or store user information that transits through our RPCs (location, IP, wallet, etc). To learn more, have a look at the public Privacy Policy in our docs: https://llamanodes.notion.site/Privacy-Practices-f20fd8fdd02a469d9d4f42a5989bb936",
         "isOpenSource": true
-      },
-      {
-        "url": "https://rpc.ankr.com/bsc",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       },
       "https://bsc-dataseed.bnbchain.org/",
       "https://bsc-dataseed1.defibit.io/",
@@ -1026,11 +988,6 @@
   "57": {
     "rpcs": [
       "https://rpc.syscoin.org",
-      {
-        "url": "https://rpc.ankr.com/syscoin",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       {
         "url": "https://syscoin-evm.publicnode.com",
         "tracking": "none",
@@ -1377,11 +1334,6 @@
         "trackingDetails": "All the information in our logs (log data) can only be accessed for the last 7 days at any certain time, and it is completely purged after 14 days. We do not store any user information for longer periods of time or with any other purposes than investigating potential errors and service failures. https://blastapi.io/privacy-policy"
       },
       {
-        "url": "https://rpc.ankr.com/gnosis",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
         "url": "https://rpc.ap-southeast-1.gateway.fm/v4/gnosis/non-archival/mainnet",
         "tracking": "yes",
         "trackingDetails": "When you use our services or visit our websites, we may log your device’s IP address for debugging and security reasons. We may retain this information for up to twelve months"
@@ -1621,11 +1573,6 @@
         "trackingDetails": "LlamaNodes is open-source and does not track or store user information that transits through our RPCs (location, IP, wallet, etc). To learn more, have a look at the public Privacy Policy in our docs: https://llamanodes.notion.site/Privacy-Practices-f20fd8fdd02a469d9d4f42a5989bb936",
         "isOpenSource": true
       },
-      {
-        "url": "https://rpc.ankr.com/polygon",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       "https://polygon-rpc.com",
       {
         "url": "https://rpc-mainnet.matic.quiknode.pro",
@@ -1768,16 +1715,6 @@
         "url": "wss://sonic.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
-      },
-      {
-        "url": "https://rpc.ankr.com/sonic_mainnet",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
-        "url": "wss://rpc.ankr.com/sonic_mainnet/ws/",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       },
       {
         "url": "wss://sonic.callstaticrpc.com",
@@ -2012,11 +1949,6 @@
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
       },
       "https://rpc.ftm.tools/",
-      {
-        "url": "https://rpc.ankr.com/fantom",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       "https://rpc.fantom.network",
       "https://rpc2.fantom.network",
       "https://rpc3.fantom.network",
@@ -2186,11 +2118,6 @@
       "https://sur.nilin.org"
     ]
   },
-  "267": {
-    "rpcs": [
-      "https://rpc.ankr.com/neura_testnet"
-    ]
-  },
   "288": {
     "rpcs": [
       "https://mainnet.boba.network/",
@@ -2219,6 +2146,11 @@
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       }
+    ]
+  },
+  "295": {
+    "rpcs": [
+      "https://hedera.linkpool.pro"
     ]
   },
   "300": {
@@ -2250,11 +2182,6 @@
     "rpcs": [
       "https://api.node.glif.io",
       "https://node.filutils.com/rpc/v1",
-      {
-        "url": "https://rpc.ankr.com/filecoin",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       {
         "url": "https://filecoin.chainup.net/rpc/v1",
         "tracking": "limited",
@@ -2650,8 +2577,7 @@
   },
   "698": {
     "rpcs": [
-      "https://rpc.matchain.io",
-      "https://rpc.ankr.com/matchain_mainnet"
+      "https://rpc.matchain.io"
     ]
   },
   "707": {
@@ -2763,11 +2689,6 @@
         "url": "https://kaia-kairos.blockpi.network/v1/rpc/public",
         "tracking": "limited",
         "trackingDetails": "We do not collect request data or request origin. We only temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days and we do not store any user information for longer periods of time. https://blockpi.io/privacy-policy"
-      },
-      {
-        "url": "https://rpc.ankr.com/klaytn_testnet",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       },
       {
         "url": "https://node.histori.xyz/kaia-testnet/8ry9f6t9dct1se2hlagxnd9n2a",
@@ -2903,11 +2824,6 @@
   "1101": {
     "rpcs": [
       {
-        "url": "https://rpc.ankr.com/polygon_zkevm",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
         "url": "https://rpc.polygon-zkevm.gateway.fm",
         "tracking": "yes",
         "trackingDetails": "When you use our services or visit our websites, we may log your device’s IP address for debugging and security reasons. We may retain this information for up to twelve months"
@@ -3000,11 +2916,6 @@
         "url": "https://1rpc.io/core",
         "tracking": "none",
         "trackingDetails": "With the exception of data that will be public on chain, all the other metadata / data should remain private to users and other parties should not be able to access or collect it. 1RPC uses many different techniques to prevent the unnecessary collection of user privacy, which prevents tracking from RPC providers. https://docs.1rpc.io/technology/zero-tracking"
-      },
-      {
-        "url": "https://rpc.ankr.com/core",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       },
       {
         "url": "https://core.drpc.org",
@@ -3126,11 +3037,6 @@
         "url": "https://moonbeam.public.blastapi.io",
         "tracking": "limited",
         "trackingDetails": "All the information in our logs (log data) can only be accessed for the last 7 days at any certain time, and it is completely purged after 14 days. We do not store any user information for longer periods of time or with any other purposes than investigating potential errors and service failures. https://blastapi.io/privacy-policy"
-      },
-      {
-        "url": "https://rpc.ankr.com/moonbeam",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       },
       {
         "url": "https://1rpc.io/glmr",
@@ -3688,16 +3594,6 @@
       "https://rpc02-sg.dogechain.dog",
       "https://rpc03-sg.dogechain.dog",
       {
-        "url": "https://dogechain.ankr.com",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
-        "url": "https://dogechain-sj.ankr.com",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
         "url": "https://doge-mainnet.gateway.tatum.io",
         "tracking": "yes",
         "trackingDetails": "Tatum Technology s.r.o.'s policy respects your privacy regarding any information we may collect from you across our website, https://tatum.io, and other sites we own and operate. For more info, check https://tatum.io/privacy-policy ."
@@ -3825,16 +3721,6 @@
         "url": "wss://wevm.kava.chainstacklabs.com",
         "tracking": "yes",
         "trackingDetails": "We process certain personal data to provide you with the core functionality of our Services. Specifically, when you are: Using the Chainstack Console, we process your name, surname, email address (your account identifier), organization name, IP address, all HTTP headers (most importantly User-Agent), cookies; Using the Chainstack Blockchain infrastructure, we process nodes' token stored in Chainstack Vault, IP address and HTTP headers, request body, API token in Chainstack Vault.https://chainstack.com/privacy/"
-      },
-      {
-        "url": "https://rpc.ankr.com/kava_evm",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
-        "url": "https://evm.kava-rpc.com",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       },
       {
         "url": "https://kava.drpc.org",
@@ -4049,11 +3935,6 @@
         "trackingDetails": "All the data and metadata remain private to the users. No third party is able to access, analyze or track it. OMNIA leverages different technologies and approaches to guarantee the privacy of their users, from front-running protection and private mempools, to obfuscation and random dispatching. https://blog.omniatech.io/how-omnia-handles-your-personal-data"
       },
       {
-        "url": "https://rpc.ankr.com/fantom_testnet",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
         "url": "https://fantom-testnet.public.blastapi.io",
         "tracking": "limited",
         "trackingDetails": "All the information in our logs (log data) can only be accessed for the last 7 days at any certain time, and it is completely purged after 14 days. We do not store any user information for longer periods of time or with any other purposes than investigating potential errors and service failures. https://blastapi.io/privacy-policy"
@@ -4172,21 +4053,11 @@
   },
   "4689": {
     "rpcs": [
-      {
-        "url": "https://rpc.ankr.com/iotex",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       "https://babel-api.mainnet.iotex.io",
       "https://babel-api.mainnet.iotex.one",
       "https://babel-api.fastblocks.io",
       "https://rpc.depinscan.io/iotex",
       "https://rpc.chainanalytics.org/iotex",
-      {
-        "url": "https://iotexrpc.com",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       {
         "url": "https://iotex-network.rpc.thirdweb.com",
         "tracking": "yes",
@@ -4239,11 +4110,6 @@
         "url": "wss://mantle.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
-      },
-      {
-        "url": "https://rpc.ankr.com/mantle",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       },
       {
         "url": "https://1rpc.io/mantle",
@@ -4662,11 +4528,6 @@
         "url": "https://klaytn.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
-      },
-      {
-        "url": "https://rpc.ankr.com/klaytn ",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       },
       {
         "url": "https://node.histori.xyz/kaia-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
@@ -5170,6 +5031,12 @@
     "websiteDead": true,
     "rpcWorking": false
   },
+  "16166": {
+    "rpcs": [
+      "https://pubnodes.cypherium.io/rpc",
+      "https://make-cph-great-again.community"
+    ]
+  },
   "16180": {
     "rpcs": [
       "https://subnets.avax.network/plyr/mainnet/rpc"
@@ -5573,11 +5440,6 @@
       },
       "https://arb1.arbitrum.io/rpc",
       {
-        "url": "https://rpc.ankr.com/arbitrum",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
         "url": "https://1rpc.io/arb",
         "tracking": "none",
         "trackingDetails": "With the exception of data that will be public on chain, all the other metadata / data should remain private to users and other parties should not be able to access or collect it. 1RPC uses many different techniques to prevent the unnecessary collection of user privacy, which prevents tracking from RPC providers. https://docs.1rpc.io/technology/zero-tracking"
@@ -5744,11 +5606,6 @@
     "rpcs": [
       "https://forno.celo.org",
       {
-        "url": "https://rpc.ankr.com/celo",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
         "url": "https://1rpc.io/celo",
         "tracking": "none",
         "trackingDetails": "With the exception of data that will be public on chain, all the other metadata / data should remain private to users and other parties should not be able to access or collect it. 1RPC uses many different techniques to prevent the unnecessary collection of user privacy, which prevents tracking from RPC providers. https://docs.1rpc.io/technology/zero-tracking"
@@ -5823,16 +5680,6 @@
         "tracking": "none",
         "trackingDetails": "All the data and metadata remain private to the users. No third party is able to access, analyze or track it. OMNIA leverages different technologies and approaches to guarantee the privacy of their users, from front-running protection and private mempools, to obfuscation and random dispatching. https://blog.omniatech.io/how-omnia-handles-your-personal-data"
       },
-      {
-        "url": "https://rpc.ankr.com/avalanche_fuji",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
-        "url": "https://rpc.ankr.com/avalanche_fuji-c",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       "https://avalanchetestapi.terminet.io/ext/bc/C/rpc",
       {
         "url": "https://ava-testnet.public.blastapi.io/ext/bc/C/rpc",
@@ -5885,11 +5732,6 @@
     "rpcs": [
       "https://api.avax.network/ext/bc/C/rpc",
       "https://avalanche.public-rpc.com",
-      {
-        "url": "https://rpc.ankr.com/avalanche",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       {
         "url": "https://ava-mainnet.public.blastapi.io/ext/bc/C/rpc",
         "tracking": "limited",
@@ -6153,16 +5995,6 @@
   "57054": {
     "rpcs": [
       {
-        "url": "https://rpc.ankr.com/sonic_blaze_testnet",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
-        "url": "wss://rpc.ankr.com/sonic_blaze_testnet/ws",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
         "url": "https://sonic-testnet.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
@@ -6370,11 +6202,6 @@
         "tracking": "none",
         "trackingDetails": "All the data and metadata remain private to the users. No third party is able to access, analyze or track it. OMNIA leverages different technologies and approaches to guarantee the privacy of their users, from front-running protection and private mempools, to obfuscation and random dispatching. https://blog.omniatech.io/how-omnia-handles-your-personal-data"
       },
-      {
-        "url": "https://rpc.ankr.com/polygon_mumbai",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       "https://polygontestapi.terminet.io/rpc",
       {
         "url": "https://polygon-testnet.public.blastapi.io",
@@ -6440,11 +6267,6 @@
         "url": "https://polygon-amoy.blockpi.network/v1/rpc/private",
         "tracking": "limited",
         "trackingDetails": "We do not collect request data or request origin. We only temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days and we do not store any user information for longer periods of time. https://blockpi.io/privacy-policy"
-      },
-      {
-        "url": "https://rpc.ankr.com/polygon_amoy",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       },
       {
         "url": "https://polygon-amoy.drpc.org",
@@ -6568,11 +6390,6 @@
         "url": "https://blast.blockpi.network/v1/rpc/private",
         "tracking": "limited",
         "trackingDetails": "We do not collect request data or request origin. We only temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days and we do not store any user information for longer periods of time. https://blockpi.io/privacy-policy"
-      },
-      {
-        "url": "https://rpc.ankr.com/blast",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       },
       {
         "url": "https://blast.gasswap.org",
@@ -6863,11 +6680,6 @@
     "rpcs": [
       "https://rpc.taiko.xyz",
       {
-        "url": "https://rpc.ankr.com/taiko",
-        "tracking": "none",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
         "url": "https://rpc.taiko.tools",
         "tracking": "none",
         "trackingDetails": "We don't gather: User IP addresses, wallets, sources of requests and request content. For more info check https://taiko.tools/privacy-policy"
@@ -6913,11 +6725,6 @@
   "167009": {
     "rpcs": [
       "https://rpc.hekla.taiko.xyz",
-      {
-        "url": "https://rpc.ankr.com/taiko_hekla",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       {
         "url": "https://hekla.taiko.tools",
         "tracking": "none",
@@ -7171,11 +6978,6 @@
         "trackingDetails": "Regarding the RPC(remote procedure call) data, we do not collect request data or request origin. We temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days. Only the amounts of RPC requests of users are recorded for accounting and billing purposes within longer time. https://unifra.io/"
       },
       {
-        "url": "https://rpc.ankr.com/scroll_sepolia_testnet",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
         "url": "https://scroll-public.scroll-testnet.quiknode.pro/",
         "tracking": "yes",
         "trackingDetails": "Information about your computer hardware and software may be automatically collected by QuickNode. This information can include such details as your IP address, browser type, domain names, access times and referring website addresses.https://www.quicknode.com/privacy"
@@ -7271,6 +7073,21 @@
         "url": "wss://zero.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
+    ]
+  },
+  "560048": {
+    "rpcs": [
+      "https://rpc.hoodi.ethpandaops.io",
+      {
+        "url": "https://0xrpc.io/hoodi",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
+      },
+      {
+        "url": "wss://0xrpc.io/hoodi",
+        "tracking": "limited",
+        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
       }
     ]
   },
@@ -7394,6 +7211,12 @@
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
       }
+    ]
+  },
+  "6231991": {
+    "rpcs": [
+      "https://block-chain.alt.technology",
+      "wss://block-chain.alt.technology/ws"
     ]
   },
   "7762959": {
@@ -7621,16 +7444,6 @@
   "21000000": {
     "rpcs": [
       {
-        "url": "https://mainnet.corn-rpc.com",
-        "tracking": "none",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
-        "url": "https://rpc.ankr.com/corn_maizenet",
-        "tracking": "none",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
         "url": "https://maizenet-rpc.usecorn.com",
         "tracking": "none",
         "trackingDetails": "We retain Personal Data about you for as long as necessary to provide you with our services. In some cases we retain Personal Data for longer, if doing so is necessary to comply with our legal obligations, resolve disputes or collect fees owed, or is otherwise permitted or required by applicable law, rule or regulation.https://www.conduit.xyz/privacy-policy"
@@ -7639,16 +7452,6 @@
   },
   "21000001": {
     "rpcs": [
-      {
-        "url": "https://testnet.corn-rpc.com",
-        "tracking": "none",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
-      {
-        "url": "https://rpc.ankr.com/corn_testnet",
-        "tracking": "none",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       {
         "url": "https://testnet-rpc.usecorn.com",
         "tracking": "none",
@@ -7850,11 +7653,6 @@
       "https://api.harmony.one",
       "https://a.api.s0.t.hmny.io",
       "https://api.s0.t.hmny.io",
-      {
-        "url": "https://rpc.ankr.com/harmony",
-        "tracking": "limited",
-        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      },
       {
         "url": "https://1rpc.io/one",
         "tracking": "none",
