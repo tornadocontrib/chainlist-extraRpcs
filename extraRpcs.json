@@ -1522,6 +1522,11 @@
         "trackingDetails": "We do not store or track any user data with the exception of data that will be public on chain. We do not correlate wallets address's with IP's,  any data which is needed to transact is deleted after 24 hours. We also do no use any Analytics or 3rd party website tracking. https://www.publicnode.com/privacy"
       },
       {
+        "url": "wss://unichain-rpc.publicnode.com",
+        "tracking": "none",
+        "trackingDetails": "We do not store or track any user data with the exception of data that will be public on chain. We do not correlate wallets address's with IP's,  any data which is needed to transact is deleted after 24 hours. We also do no use any Analytics or 3rd party website tracking. https://www.publicnode.com/privacy"
+      },
+      {
         "url": "https://unichain.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
@@ -1720,6 +1725,11 @@
         "url": "wss://sonic.callstaticrpc.com",
         "tracking": "none",
         "trackingDetails": "While making RPC requests, we do not log, store, or track your IP address, country, location, or any personal data. We log usage data to help you monitor app performance, such as request volume and success rates. These logs are associated solely with the unique API key generated for each of your endpoints, are anonymized, and are not stored in logs. https://callstatic.com/privacy-policy/"
+      },
+      {
+        "url": "https://sonic.api.onfinality.io/public",
+        "tracking": "limited",
+        "trackingDetails": "For the sole purpose of providing our service, we temporarily record IP addresses and origins to check against free limits, provide load balancing, prevent DOS attacks, and to determine where best to locate our nodes. We do not, and will never, correlate or link specific wallet addresses or transactions made over our infrastructure to the IP address or origin making the RPC request. After processing IP addresses, we discard the IP address value within 24 hours. Read more here: https://blog.onfinality.io/how-does-onfinality-deal-with-personal-information/"
       }
     ]
   },
@@ -5046,6 +5056,7 @@
     "rpcs": [
       "https://evmrpc-testnet.0g.ai",
       "https://0g-json-rpc-public.originstake.com",
+      "https://og-testnet-jsonrpc.blockhub.id",
       {
         "url": "https://0g-json-rpc-public.originstake.com",
         "tracking": "none",
