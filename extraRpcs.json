@@ -391,14 +391,7 @@
     ]
   },
   "10": {
-    "name": "Optimism LlamaNodes",
     "rpcs": [
-      {
-        "url": "https://optimism.llamarpc.com",
-        "tracking": "none",
-        "trackingDetails": "LlamaNodes is open-source and does not track or store user information that transits through our RPCs (location, IP, wallet, etc). To learn more, have a look at the public Privacy Policy in our docs: https://llamanodes.notion.site/Privacy-Practices-f20fd8fdd02a469d9d4f42a5989bb936",
-        "isOpenSource": true
-      },
       "https://mainnet.optimism.io/",
       {
         "url": "https://optimism-mainnet.public.blastapi.io",
@@ -1570,14 +1563,7 @@
     ]
   },
   "137": {
-    "name": "Polygon LlamaNodes",
     "rpcs": [
-      {
-        "url": "https://polygon.llamarpc.com",
-        "tracking": "none",
-        "trackingDetails": "LlamaNodes is open-source and does not track or store user information that transits through our RPCs (location, IP, wallet, etc). To learn more, have a look at the public Privacy Policy in our docs: https://llamanodes.notion.site/Privacy-Practices-f20fd8fdd02a469d9d4f42a5989bb936",
-        "isOpenSource": true
-      },
       "https://polygon-rpc.com",
       {
         "url": "https://rpc-mainnet.matic.quiknode.pro",
@@ -5446,14 +5432,7 @@
     ]
   },
   "42161": {
-    "name": "Arbitrum LlamaNodes",
     "rpcs": [
-      {
-        "url": "https://arbitrum.llamarpc.com",
-        "tracking": "none",
-        "trackingDetails": "LlamaNodes is open-source and does not track or store user information that transits through our RPCs (location, IP, wallet, etc). To learn more, have a look at the public Privacy Policy in our docs: https://llamanodes.notion.site/Privacy-Practices-f20fd8fdd02a469d9d4f42a5989bb936",
-        "isOpenSource": true
-      },
       "https://arb1.arbitrum.io/rpc",
       {
         "url": "https://1rpc.io/arb",
@@ -6348,16 +6327,6 @@
         "url": "wss://berachain.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
-      },
-      {
-        "url": "https://0xrpc.io/bera",
-        "tracking": "limited",
-        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
-      },
-      {
-        "url": "wss://0xrpc.io/bera",
-        "tracking": "limited",
-        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
       },
       {
         "url": "https://rpc.berachain-apis.com",
