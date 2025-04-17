@@ -292,6 +292,11 @@
         "url": "https://rpc.owlracle.info/eth/70d38ce1826c4a60bb2a8e05a6c8b20f",
         "tracking": "limited",
         "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
+      },
+      {
+        "url": "https://rpc.therpc.io/ethereum",
+        "tracking": "limited",
+        "trackingDetails": "We temporarily record request method names and IP addresses for 7 days solely for service functionality, such as load balancing and DDoS protection.https://therpc.io/agreement/privacy-policy"
       }
     ]
   },
@@ -1299,6 +1304,11 @@
         "url": "wss://bsc-testnet.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "https://bnb-testnet.api.onfinality.io/public",
+        "tracking": "limited",
+        "trackingDetails": "For the sole purpose of providing our service, we temporarily record IP addresses and origins to check against free limits, provide load balancing, prevent DOS attacks, and to determine where best to locate our nodes. We do not, and will never, correlate or link specific wallet addresses or transactions made over our infrastructure to the IP address or origin making the RPC request. After processing IP addresses, we discard the IP address value within 24 hours. Read more here: https://blog.onfinality.io/how-does-onfinality-deal-with-personal-information/"
       }
     ]
   },
