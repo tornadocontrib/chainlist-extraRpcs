@@ -687,12 +687,15 @@
   },
   "31": {
     "rpcs": [
-      "https://public-node.testnet.rsk.co",
-      "https://mycrypto.testnet.rsk.co",
       {
-        "url": "https://node.histori.xyz/rsk-testnet/8ry9f6t9dct1se2hlagxnd9n2a",
+        "url": "https://rootstock-testnet.drpc.org",
         "tracking": "none",
-        "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://rootstock-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       }
     ]
   },
@@ -1757,6 +1760,11 @@
         "url": "https://rpc.owlracle.info/poly/70d38ce1826c4a60bb2a8e05a6c8b20f",
         "tracking": "limited",
         "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
+      },
+      {
+        "url": "https://rpc.therpc.io/polygon",
+        "tracking": "limited",
+        "trackingDetails": "We temporarily record request method names and IP addresses for 7 days solely for service functionality, such as load balancing and DDoS protection.https://therpc.io/agreement/privacy-policy"
       }
     ]
   },
@@ -1792,6 +1800,11 @@
         "url": "https://sonic.api.onfinality.io/public",
         "tracking": "limited",
         "trackingDetails": "For the sole purpose of providing our service, we temporarily record IP addresses and origins to check against free limits, provide load balancing, prevent DOS attacks, and to determine where best to locate our nodes. We do not, and will never, correlate or link specific wallet addresses or transactions made over our infrastructure to the IP address or origin making the RPC request. After processing IP addresses, we discard the IP address value within 24 hours. Read more here: https://blog.onfinality.io/how-does-onfinality-deal-with-personal-information/"
+      },
+      {
+        "url": "https://rpc.therpc.io/sonic",
+        "tracking": "limited",
+        "trackingDetails": "We temporarily record request method names and IP addresses for 7 days solely for service functionality, such as load balancing and DDoS protection.https://therpc.io/agreement/privacy-policy"
       }
     ]
   },
@@ -1848,7 +1861,17 @@
   },
   "177": {
     "rpcs": [
-      "https://mainnet.hsk.xyz"
+      "https://mainnet.hsk.xyz",
+      {
+        "url": "https://hashkey.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://hashkey.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
     ]
   },
   "184": {
@@ -1889,6 +1912,16 @@
         "url": "https://rpc.ankr.com/xlayer_testnet",
         "tracking": "none",
         "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
+      },
+      {
+        "url": "https://xlayer-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://xlayer-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       }
     ]
   },
@@ -2755,6 +2788,20 @@
       "https://gwan2-ssl.wandevs.org"
     ]
   },
+  "919": {
+    "rpcs": [
+      {
+        "url": "https://mode-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://mode-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
+    ]
+  },
   "943": {
     "rpcs": [
       "https://rpc.v4.testnet.pulsechain.com",
@@ -2934,6 +2981,7 @@
   "1100": {
     "rpcs": [
       "https://jsonrpc.dymension.nodestake.org",
+      "https://rollapp.jrpc.cumulo.com.es",
       "https://dymension.liquify.com/json-rpc",
       "https://dymension-evm.kynraze.com",
       "https://dymension.drpc.org",
@@ -3389,6 +3437,22 @@
       }
     ]
   },
+  "1315": {
+    "rpcs": [
+      "https://aeneid.storyrpc.io/",
+      "https://evm-aeneid-story.j-node.net",
+      {
+        "url": "https://lightnode-json-rpc-story.grandvalleys.com",
+        "tracking": "none",
+        "trackingDetails": "We do not collect, store, process, or log any data from users of our Services. This includes, but is not limited to: IP addresses (we explicitly disable IP logging at both software and infrastructure levels), Device/browser identifiers (e.g., user-agent headers, screen resolution), Network metadata (requests, responses, timestamps), Wallet addresses, private keys, or transaction data, Geolocation or demographic information. https://github.com/hubofvalley/Testnet-Guides/blob/main/PRIVACY_POLICY.md"
+      },
+      {
+        "url": "https://rpc.ankr.com/story_aeneid_testnet",
+        "tracking": "none",
+        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
+      }
+    ]
+  },
   "1319": {
     "rpcs": [
       "https://aia-dataseed2.aiachain.org",
@@ -3407,6 +3471,16 @@
         "url": "https://node.histori.xyz/sei-testnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://sei-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://sei-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       }
     ]
   },
@@ -3630,6 +3704,16 @@
         "url": "https://node.histori.xyz/metal-l2-testnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://metall2-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://metall2-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       }
     ]
   },
@@ -3719,6 +3803,16 @@
         "url": "https://rpc.ankr.com/swell_sepolia",
         "tracking": "none",
         "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
+      },
+      {
+        "url": "https://swell-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
+      },
+      {
+        "url": "wss://swell-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       }
     ]
   },
@@ -3787,6 +3881,20 @@
   "2016": {
     "rpcs": [
       "https://eu-rpc.mainnetz.io"
+    ]
+  },
+  "2020": {
+    "rpcs": [
+      {
+        "url": "https://ronin.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://ronin.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
     ]
   },
   "2021": {
@@ -4087,14 +4195,13 @@
   },
   "2741": {
     "rpcs": [
-      "https://api.mainnet.abs.xyz",
       {
-        "url": "https://abstract.drpc.org",
+        "url": "https://abstract-sepolia.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       },
       {
-        "url": "wss://abstract.drpc.org",
+        "url": "wss://abstract-sepolia.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       }
@@ -4310,6 +4417,16 @@
         "url": "https://node.histori.xyz/worldchain-sepolia/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://worldchain-sepolia.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://worldchain-sepolia.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       }
     ]
   },
@@ -4448,6 +4565,20 @@
   "5315": {
     "rpcs": [],
     "rpcWorking": false
+  },
+  "5330": {
+    "rpcs": [
+      {
+        "url": "https://superseed.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://superseed.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
+    ]
   },
   "5439": {
     "rpcs": [
@@ -4927,6 +5058,11 @@
         "url": "https://rpc.owlracle.info/base/70d38ce1826c4a60bb2a8e05a6c8b20f",
         "tracking": "limited",
         "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
+      },
+      {
+        "url": "https://rpc.therpc.io/base",
+        "tracking": "limited",
+        "trackingDetails": "We temporarily record request method names and IP addresses for 7 days solely for service functionality, such as load balancing and DDoS protection.https://therpc.io/agreement/privacy-policy"
       }
     ]
   },
@@ -4983,7 +5119,9 @@
       "https://testnet-evm-rpc-evmos.hoodrun.io",
       "https://alphab.ai/rpc/eth/evmos_testnet",
       "https://t-evmos-jsonrpc.kalia.network",
-      "https://jsonrpc-evmos-testnet.mzonder.com"
+      "https://jsonrpc-evmos-testnet.mzonder.com",
+      "https://evmos-testnet.drpc.org",
+      "wss://evmos-testnet.drpc.org"
     ]
   },
   "9001": {
@@ -5330,7 +5468,17 @@
         "tracking": "none",
         "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
       },
-      "https://0g-evm-rpc.murphynode.net"
+      "https://0g-evm-rpc.murphynode.net",
+      {
+        "url": "https://0g-newton-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://0g-newton-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
     ]
   },
   "17000": {
@@ -5624,22 +5772,6 @@
     ]
   },
   "37111": {
-    "1315": {
-      "rpcs": [
-        "https://aeneid.storyrpc.io/",
-        "https://evm-aeneid-story.j-node.net",
-        {
-          "url": "https://lightnode-json-rpc-story.grandvalleys.com",
-          "tracking": "none",
-          "trackingDetails": "We do not collect, store, process, or log any data from users of our Services. This includes, but is not limited to: IP addresses (we explicitly disable IP logging at both software and infrastructure levels), Device/browser identifiers (e.g., user-agent headers, screen resolution), Network metadata (requests, responses, timestamps), Wallet addresses, private keys, or transaction data, Geolocation or demographic information. https://github.com/hubofvalley/Testnet-Guides/blob/main/PRIVACY_POLICY.md"
-        },
-        {
-          "url": "https://rpc.ankr.com/story_aeneid_testnet",
-          "tracking": "none",
-          "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-        }
-      ]
-    },
     "rpcs": [
       "https://rpc.testnet.lens.dev",
       {
@@ -6137,13 +6269,31 @@
       }
     ]
   },
+  "48898": {
+    "rpcs": [
+      {
+        "url": "https://zircuit-garfield-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://zircuit-garfield-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
+    ]
+  },
   "48899": {
     "rpcs": [
-      "https://zircuit1-testnet.p2pify.com/",
       {
-        "url": "https://node.histori.xyz/zircuit-testnet/8ry9f6t9dct1se2hlagxnd9n2a",
+        "url": "https://zircuit-testnet.drpc.org",
         "tracking": "none",
-        "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://zircuit-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       }
     ]
   },
@@ -6289,6 +6439,11 @@
         "url": "wss://sonic-testnet.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "https://rpc.therpc.io/sonic-blaze",
+        "tracking": "limited",
+        "trackingDetails": "We temporarily record request method names and IP addresses for 7 days solely for service functionality, such as load balancing and DDoS protection.https://therpc.io/agreement/privacy-policy"
       }
     ]
   },
@@ -6578,6 +6733,11 @@
         "url": "https://node.histori.xyz/matic-amoy-testnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      },
+      {
+        "url": "https://rpc.therpc.io/polygon-amoy",
+        "tracking": "limited",
+        "trackingDetails": "We temporarily record request method names and IP addresses for 7 days solely for service functionality, such as load balancing and DDoS protection.https://therpc.io/agreement/privacy-policy"
       }
     ]
   },
@@ -6588,6 +6748,20 @@
         "url": "https://node.histori.xyz/polynomial-sepolia/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      }
+    ]
+  },
+  "80069": {
+    "rpcs": [
+      {
+        "url": "https://berachain-bepolia.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://berachain-bepolia.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       }
     ]
   },
@@ -6726,6 +6900,11 @@
         "url": "https://rpc.owlracle.info/blast/70d38ce1826c4a60bb2a8e05a6c8b20f",
         "tracking": "limited",
         "trackingDetails": "For rate-limiting and to prevent abuse, we collect and store the IP address of the user making the request. This data is stored for 1 month and is not shared with any third parties. https://owlracle.info/privacy"
+      },
+      {
+        "url": "https://rpc.therpc.io/blast",
+        "tracking": "limited",
+        "trackingDetails": "We temporarily record request method names and IP addresses for 7 days solely for service functionality, such as load balancing and DDoS protection.https://therpc.io/agreement/privacy-policy"
       }
     ]
   },
@@ -6800,6 +6979,11 @@
         "url": "wss://base-sepolia.drpc.org",
         "tracking": "none",
         "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "https://rpc.therpc.io/base-sepolia",
+        "tracking": "limited",
+        "trackingDetails": "We temporarily record request method names and IP addresses for 7 days solely for service functionality, such as load balancing and DDoS protection.https://therpc.io/agreement/privacy-policy"
       }
     ]
   },
@@ -7412,7 +7596,9 @@
   },
   "560048": {
     "rpcs": [
-      "https://rpc.hoodi.ethpandaops.io",
+      {
+        "url": "https://rpc.hoodi.ethpandaops.io"
+      },
       {
         "url": "https://0xrpc.io/hoodi",
         "tracking": "limited",
@@ -7456,6 +7642,20 @@
         "url": "https://rpc.ankr.com/xai",
         "tracking": "none",
         "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
+      }
+    ]
+  },
+  "713715": {
+    "rpcs": [
+      {
+        "url": "https://sei-devnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://sei-devnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       }
     ]
   },
@@ -7593,6 +7793,20 @@
         "url": "https://node.histori.xyz/zora-mainnet/8ry9f6t9dct1se2hlagxnd9n2a",
         "tracking": "none",
         "trackingDetails": "At Histori, we do not log, store, or track your IP address, country, location, or any personal data while making RPC requests and REST API calls. Learn more at: https://histori.xyz/support/privacy-policy"
+      }
+    ]
+  },
+  "7849306": {
+    "rpcs": [
+      {
+        "url": "https://ozean-poseidon-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://ozean-poseidon-testnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
       }
     ]
   },
@@ -7910,7 +8124,17 @@
   },
   "245022926": {
     "rpcs": [
-      "https://devnet.neonevm.org"
+      "https://devnet.neonevm.org",
+      {
+        "url": "https://neon-evm-devnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://neon-evm-devnet.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
     ]
   },
   "245022934": {
@@ -7962,6 +8186,20 @@
   "531050104": {
     "rpcs": [
       "https://rpc.testnet.sophon.xyz"
+    ]
+  },
+  "728126428": {
+    "rpcs": [
+      {
+        "url": "https://tron.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      },
+      {
+        "url": "wss://tron.drpc.org",
+        "tracking": "none",
+        "trackingDetails": "Specific types of technical data that we may temporarily log include:IP address (only in logs for redirecting requests to the nearest RPC nodes and rate limiting at the free level, which are cleared weekly). The user ID is hidden in the temporary logs, so it is not possible to link them to a specific user.https://drpc.org/privacy-policy"
+      }
     ]
   },
   "999999999": {
