@@ -3441,6 +3441,7 @@
     "rpcs": [
       "https://aeneid.storyrpc.io/",
       "https://evm-aeneid-story.j-node.net",
+      "https://evmrpc-t.story.nodestake.org",
       {
         "url": "https://lightnode-json-rpc-story.grandvalleys.com",
         "tracking": "none",
@@ -3450,7 +3451,9 @@
         "url": "https://rpc.ankr.com/story_aeneid_testnet",
         "tracking": "none",
         "trackingDetails": "For service delivery purposes, we temporarily record IP addresses to set usage limits and monitor for denial of service attacks against our infrastructure. Though we do look at high-level data around the success rate of transactions made over the blockchain RPC, we do not correlate wallet transactions made over the infrastructure to the IP address making the RPC request. Thus, we do not store, exploit, or share any information regarding Personal Identifiable Information (PII), including wallet addresses. https://www.ankr.com/blog/ankrs-ip-address-policy-and-your-privacy/"
-      }
+      },
+      "https://aeneid-evm-rpc.krews.xyz",
+      "https://story-aeneid-rpc.spidernode.net"
     ]
   },
   "1319": {
