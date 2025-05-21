@@ -3595,7 +3595,6 @@
       },
       "https://evm-rpc-story.j-node.net",
       "https://story-evm-rpc.krews.xyz",
-      "https://story-mainnet-jsonrpc.blockhub.id",
       "https://evmrpc.story.nodestake.org",
       "https://story-mainnet.zenithnode.xyz",
       "https://evm-rpc.story.silentvalidator.com",
@@ -6363,7 +6362,12 @@
   },
   "50104": {
     "rpcs": [
-      "https://rpc.sophon.xyz"
+      "https://rpc.sophon.xyz",
+      {
+        "url": "https://rpc-quicknode.sophon.xyz",
+        "tracking": "yes",
+        "trackingDetails": "Information about your computer hardware and software may be automatically collected by QuickNode. This information can include such details as your IP address, browser type, domain names, access times and referring website addresses.https://www.quicknode.com/privacy"
+      }
     ]
   },
   "50312": {
@@ -8204,7 +8208,12 @@
   },
   "531050104": {
     "rpcs": [
-      "https://rpc.testnet.sophon.xyz"
+      "https://rpc.testnet.sophon.xyz",
+      {
+        "url": "https://rpc-quicknode.testnet.sophon.xyz",
+        "tracking": "yes",
+        "trackingDetails": "Information about your computer hardware and software may be automatically collected by QuickNode. This information can include such details as your IP address, browser type, domain names, access times and referring website addresses.https://www.quicknode.com/privacy"
+      }
     ]
   },
   "728126428": {
