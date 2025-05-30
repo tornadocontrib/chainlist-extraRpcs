@@ -1805,7 +1805,8 @@
         "url": "https://rpc.therpc.io/sonic",
         "tracking": "limited",
         "trackingDetails": "We temporarily record request method names and IP addresses for 7 days solely for service functionality, such as load balancing and DDoS protection.https://therpc.io/agreement/privacy-policy"
-      }
+      },
+      "https://sonic-json-rpc.stakely.io/"
     ]
   },
   "151": {
@@ -4661,6 +4662,12 @@
         "tracking": "none",
         "trackingDetails": "We do not store or track any user data with the exception of data that will be public on chain. We do not correlate wallets address's with IP's,  any data which is needed to transact is deleted after 24 hours. We also do no use any Analytics or 3rd party website tracking. https://www.publicnode.com/privacy"
       }
+    ]
+  },
+  "6900": {
+    "rpcs": [
+      "https://evm-rpc.nibiru.fi",
+      "wss://evm-rpc-ws.nibiru.fi"
     ]
   },
   "7000": {
