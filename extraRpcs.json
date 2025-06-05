@@ -1014,16 +1014,6 @@
         "url": "https://rpc.therpc.io/bsc",
         "tracking": "limited",
         "trackingDetails": "We temporarily record request method names and IP addresses for 7 days solely for service functionality, such as load balancing and DDoS protection.https://therpc.io/agreement/privacy-policy"
-      },
-      {
-        "url": "https://0xrpc.io/bnb",
-        "tracking": "limited",
-        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
-      },
-      {
-        "url": "wss://0xrpc.io/bnb",
-        "tracking": "limited",
-        "trackingDetails": "Unidentifiable hashed value of IP and browser info are stored for 24 hours to prevent DDOS. See https://0xrpc.io/privacy"
       }
     ]
   },
