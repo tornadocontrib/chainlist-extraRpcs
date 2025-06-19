@@ -98,7 +98,7 @@
         "trackingDetails": "Regarding the RPC(remote procedure call) data, we do not collect request data or request origin. We temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days. Only the amounts of RPC requests of users are recorded for accounting and billing purposes within longer time. https://unifra.io/"
       },
       {
-        "url": "https://ethereum.blockpi.network/v1/rpc/public",
+        "url": "https://ethereum.public.blockpi.network/v1/rpc/public",
         "tracking": "limited",
         "trackingDetails": "We do not collect request data or request origin. We only temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days and we do not store any user information for longer periods of time. https://blockpi.io/privacy-policy"
       },
@@ -424,7 +424,7 @@
         "trackingDetails": "We may collect certain information automatically when you use our Services, such as your Internet protocol (IP) address, user settings, MAC address, cookie identifiers, mobile carrier, mobile advertising and other unique identifiers, browser or device information, location information (including approximate location derived from IP address), and Internet service provider. https://www.alchemy.com/policies/privacy-policy"
       },
       {
-        "url": "https://optimism.blockpi.network/v1/rpc/public",
+        "url": "https://optimism.public.blockpi.network/v1/rpc/public",
         "tracking": "limited",
         "trackingDetails": "We do not collect request data or request origin. We only temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days and we do not store any user information for longer periods of time. https://blockpi.io/privacy-policy"
       },
@@ -3441,7 +3441,8 @@
       },
       "https://aeneid-evm-rpc.krews.xyz",
       "https://story-aeneid-rpc.spidernode.net",
-      "https://evm-rpc.story.testnet.node75.org"
+      "https://evm-rpc.story.testnet.node75.org",
+      "https://story-aeneid-json-rpc.auranode.xyz"
     ]
   },
   "1319": {
@@ -4951,7 +4952,7 @@
         "trackingDetails": "We record limited metadata from requests. This data is stored for a maximum of 90 days and is solely used for debugging, identifying suspicious activity, and generating analytics."
       },
       {
-        "url": "https://base.blockpi.network/v1/rpc/public",
+        "url": "https://base.public.blockpi.network/v1/rpc/public",
         "tracking": "limited",
         "trackingDetails": "We do not collect request data or request origin. We only temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days and we do not store any user information for longer periods of time. https://blockpi.io/privacy-policy"
       },
@@ -5865,7 +5866,7 @@
         "trackingDetails": "We may collect certain information automatically when you use our Services, such as your Internet protocol (IP) address, user settings, MAC address, cookie identifiers, mobile carrier, mobile advertising and other unique identifiers, browser or device information, location information (including approximate location derived from IP address), and Internet service provider. https://www.alchemy.com/policies/privacy-policy"
       },
       {
-        "url": "https://arbitrum.blockpi.network/v1/rpc/public",
+        "url": "https://arbitrum.public.blockpi.network/v1/rpc/public",
         "tracking": "limited",
         "trackingDetails": "We do not collect request data or request origin. We only temporarily record the request method names and IP addresses for 7 days to ensure our service functionality such as load balancing and DDoS protection. All the data is automatically deleted after 7 days and we do not store any user information for longer periods of time. https://blockpi.io/privacy-policy"
       },
